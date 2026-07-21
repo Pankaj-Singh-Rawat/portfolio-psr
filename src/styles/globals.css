@@ -1,0 +1,86 @@
+:root {
+
+  /* Backgrounds */
+
+  --bg: #F7F3EE;
+  --surface: #EFE7DD;
+
+  /* Typography */
+
+  --text: #2F2924;
+  --text-light: #7A6B5D;
+
+  /* Accent */
+
+  --accent: #B89672;
+
+  /* UI */
+
+  --border: #DDD2C5;
+
+  /* Radius */
+
+  --radius: 22px;
+
+  /* Shadow */
+
+  --shadow:
+    0px 10px 40px rgba(0,0,0,.05);
+
+}
+
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+}
+
+body{
+
+  margin:0;
+
+  background:
+    radial-gradient(
+        circle at top,
+        #fcf8f3 0%,
+        #f7f3ee 45%,
+        #f2ece4 100%
+    );
+
+  color:var(--text);
+
+  font-family:"Manrope",sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+
+  font-family:"Cormorant Garamond",serif;
+
+  font-weight:600;
+
+  line-height:1.1;
+
+}
+
+a{
+
+  color:inherit;
+
+  text-decoration:none;
+
+}
