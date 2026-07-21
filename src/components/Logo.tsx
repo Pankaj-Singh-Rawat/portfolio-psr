@@ -1,7 +1,10 @@
 export default function Logo() {
   return (
-    <h1 className="text-2xl font-semibold tracking-wide">
+    <a
+      href="#home"
+      className="font-serif text-2xl font-semibold tracking-wide text-[var(--text)]"
+    >
       PSR
-    </h1>
+    </a>
   );
 }

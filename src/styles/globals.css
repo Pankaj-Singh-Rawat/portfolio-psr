@@ -1,3 +1,8 @@
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Manrope", sans-serif;
+}
+
 :root {
 
   /* Backgrounds */
@@ -13,6 +18,7 @@
   /* Accent */
 
   --accent: #B89672;
+  --accent-soft: #EAD9BE;
 
   /* UI */
 
