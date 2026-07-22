@@ -73,3 +73,7 @@ export default defineConfig([
 ])
 
 ```
+
+## AUTHOR
+
+PANKAJ SINGH RAWAT
